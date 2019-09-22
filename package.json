@@ -1,0 +1,14 @@
+{
+  "name": "tv-show-demo",
+  "version": "0.1.0",
+  "description": "A small library that uses TVmaze API to get the current status of a TV show by name. Created to demonstrate node.js best development practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tv-show"
+  ],
+  "author": "Sergey Kopylov",
+  "license": "MIT"
+}
