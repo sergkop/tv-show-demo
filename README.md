@@ -1,6 +1,7 @@
 # TV show status
 
 [![Build Status](https://travis-ci.org/sergkop/tv-show-demo.svg?branch=master)](https://travis-ci.org/sergkop/tv-show-demo)
+[![codecov](https://codecov.io/gh/sergkop/tv-show-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/sergkop/tv-show-demo)
 
 A small library that uses [TVmaze API](https://www.tvmaze.com/api) to get the current status of a TV show by name. Created to demonstrate node.js development best practices.
 
