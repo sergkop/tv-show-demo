@@ -4,11 +4,24 @@
   "description": "A small library that uses TVmaze API to get the current status of a TV show by name. Created to demonstrate node.js best development practices.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix *.js",
+    "test": "jest"
   },
   "keywords": [
-    "tv-show"
+    "demo"
   ],
   "author": "Sergey Kopylov",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
 }
