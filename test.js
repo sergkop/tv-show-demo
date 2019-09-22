@@ -10,7 +10,7 @@ async function expectShowStatus(name, status) {
 }
 
 test('show with upcoming episode', async () => {
-  expectShowStatus(
+  await expectShowStatus(
     'Ozark',
     'Episode 1 from season 3 was announced, but no date yet',
   );
