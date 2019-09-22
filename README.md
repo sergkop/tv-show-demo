@@ -1,6 +1,6 @@
 # TV show status
 
-A small library that uses TVmaze API to get the current status of a TV show by name. Created to demonstrate node.js development best practices.
+A small library that uses [TVmaze API](https://www.tvmaze.com/api) to get the current status of a TV show by name. Created to demonstrate node.js development best practices.
 
 This package demonstrates the use of the following technologies:
 

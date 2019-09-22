@@ -1,8 +1,8 @@
 const {getShowStatus} = require('./index');
 
 test('show with upcoming episode', async () => {
-  const res = getShowStatus('Ozark');
-  expect(res).objectContaining({
+  const res = await getShowStatus('Ozark');
+  expect(res).toMatchObject({
     name: expect.any(String),
     status: expect.any(String),
   });
